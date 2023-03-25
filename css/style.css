@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+/**************************Header******************************/
+#h1 {
+  font-size: 3em;
+  padding: 0;
+}
+
+header a {
+  color: black;
+  margin-left: 20px;
+  font-size: 1.5vw;
+}
+
+header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#links {
+  padding-right: 60px;
+}
+
+#menu-png {
+  display: flex;
+  align-items: center;
+  width: 2vw;
+  height: 2vw;
+  background-size: auto;
+  text-align: center;
+  padding-right: 5vw;
+}
+
+#menu-png img {
+  padding-right: 10px;
+  height: 15px;
+}
+
+#hero-logo {
+  margin: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 42vw;
+  height: 4vw;
+  font-size: 1.8vw;
+  top: 7vw;
+  left: 10vw;
+  font-weight: bold;
+  background-color: rgb(38, 178, 89);
+  color: white;
+}
+
+#section-icons img {
+  padding: 20px;
+}
+
+#section-icons p {
+  font-size: 1rem;
+}
