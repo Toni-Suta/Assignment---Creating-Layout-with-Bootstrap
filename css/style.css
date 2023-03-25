@@ -37,7 +37,7 @@ header a:hover {
   height: 15px;
 }
 
-#hero-logo {
+#hero-img {
   margin: 0;
   min-width: 100%;
   height: auto;
@@ -58,10 +58,24 @@ header a:hover {
   color: white;
 }
 
-#section-icons img {
-  padding: 20px;
+#section-1-icons img {
+  padding-bottom: 15px;
 }
 
 #section-icons p {
   font-size: 1rem;
+}
+
+.section-2 h5 {
+  border-bottom: 1px solid #808080e0;
+  color: #808080e0;
+}
+
+.section-2 img {
+  position: relative;
+}
+
+#second-row img {
+  min-width: 100%;
+  height: auto;
 }
