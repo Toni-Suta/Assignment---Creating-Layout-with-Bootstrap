@@ -5,8 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment - Creating web site Layout with Bootstrap</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
+    <header>
+      <div class="containter-fluid">
+        <div class="row align-items-center p-3">
+          <div id="h1" class="col-8 col-md-6 col-lg-4">
+            <h1 class="text-muted font-weight-light text-center">My Website</h1>
+          </div>
+          <div
+            id="links"
+            class="col-8 col-lg-8 d-none d-lg-block text-right lead"
+          >
+            <a href="#"><strong>Home</strong></a>
+            <a href="#">Portfolio</a>
+            <a href="#">Staff</a>
+            <a href="#">Features</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Download</a>
+          </div>
+          <div id="menu-png" class="col-4 col-md-6 d-lg-none">
+            <img class="d-block ml-auto" src="/imgs/menu.png" alt="menu" />
+            Menu
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-1">
+      <div class="containter-fluid">
+        <div class="row">
+          <div class="col-12">
+            <img
+              id="hero-logo"
+              class="img-fluid"
+              src="/imgs/hero.jpg"
+              alt="joystick logo"
+            />
+            <div class="hero-text">
+              We strive to make all our creations exquisite.
+            </div>
+          </div>
+        </div>
+        <div
+          id="section-icons"
+          class="m-5 row justify-content-center text-center"
+        >
+          <div class="col-3">
+            <img src="/imgs/icon-1.png" alt="Rocket icon" />
+            <h5>Purpose</h5>
+            <p class="lead pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              odit suscipit voluptatum, explicabo.
+            </p>
+          </div>
+          <div class="col-3">
+            <img src="/imgs/icon-2.png" alt="Like icon" />
+            <h5>Purpose</h5>
+            <p class="lead pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              odit suscipit voluptatum, explicabo.
+            </p>
+          </div>
+          <div class="col-3">
+            <img src="/imgs/icon-3.png" alt="Function icon" />
+            <h5>Purpose</h5>
+            <p class="lead pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              odit suscipit voluptatum, explicabo.
+            </p>
+          </div>
+          <div class="col-3">
+            <img src="/imgs/icon-4.png" alt="Star icon" />
+            <h5>Purpose</h5>
+            <p class="lead pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              odit suscipit voluptatum, explicabo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="container-fluid">
+        <div class="row">
+          <h5>RECENT WORK</h5>
+          <div class="col-4"></div>
+          <div class="col-4"></div>
+          <div class="col-4"></div>
+          <div class="col-4"></div>
+        </div>
+        <div class="row">
+          <h5>FROM THE BLOG</h5>
+          <div class="col-3"></div>
+          <div class="col-3"></div>
+          <div class="col-3"></div>
+        </div>
+      </div>
+    </section>
+
     <script src="../js/jquery-3.6.4.slim.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
   </body>
