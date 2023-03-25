@@ -35,11 +35,11 @@
     </header>
 
     <section class="section-1">
-      <div class="containter-fluid">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 p-0">
             <img
-              id="hero-logo"
+              id="hero-img"
               class="img-fluid"
               src="/imgs/hero.jpg"
               alt="joystick logo"
@@ -50,10 +50,10 @@
           </div>
         </div>
         <div
-          id="section-icons"
+          id="section-1-icons"
           class="m-5 row justify-content-center text-center"
         >
-          <div class="col-3">
+          <div class="py-3 col-12 col-md-12 col-lg-3">
             <img src="/imgs/icon-1.png" alt="Rocket icon" />
             <h5>Purpose</h5>
             <p class="lead pt-2">
@@ -61,7 +61,7 @@
               odit suscipit voluptatum, explicabo.
             </p>
           </div>
-          <div class="col-3">
+          <div class="py-3 col-12 col-md-12 col-lg-3">
             <img src="/imgs/icon-2.png" alt="Like icon" />
             <h5>Purpose</h5>
             <p class="lead pt-2">
@@ -69,7 +69,7 @@
               odit suscipit voluptatum, explicabo.
             </p>
           </div>
-          <div class="col-3">
+          <div class="py-3 col-12 col-md-12 col-lg-3">
             <img src="/imgs/icon-3.png" alt="Function icon" />
             <h5>Purpose</h5>
             <p class="lead pt-2">
@@ -77,7 +77,7 @@
               odit suscipit voluptatum, explicabo.
             </p>
           </div>
-          <div class="col-3">
+          <div class="py-3 col-12 col-md-12 col-lg-3">
             <img src="/imgs/icon-4.png" alt="Star icon" />
             <h5>Purpose</h5>
             <p class="lead pt-2">
@@ -88,23 +88,102 @@
         </div>
       </div>
     </section>
-    <section class="section-2">
-      <div class="container-fluid">
-        <div class="row">
-          <h5>RECENT WORK</h5>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
+    <section class="section-2 m-5">
+      <div id="first-row" class="container-fluid">
+        <h5>RECENT WORK</h5>
+        <div class="row text-capitalize">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/bike-400x340.jpg"
+              alt="Bike image"
+            />
+            <p class="h5 mb-0">green bike</p>
+            <p class="lead">beautiful, travel</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/surf-400x340.jpg"
+              alt="Surf image"
+            />
+            <p class="h5 mb-0">salt of the earth</p>
+            <p class="lead">Beautiful, Travel</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/hills-400x340.jpg"
+              alt="Mountins image"
+            />
+            <p class="h5 mb-0">mountin high</p>
+            <p class="lead">travel</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/path-400x340.jpg"
+              alt="Woods image"
+            />
+            <p class="h5 mb-0">when a tree falls</p>
+            <p class="lead">Beautiful</p>
+          </div>
         </div>
-        <div class="row">
-          <h5>FROM THE BLOG</h5>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
+        <h5 class="pt-5">FROM THE BLOG</h5>
+        <div id="second-row" class="row text-left">
+          <div class="col-sm-12 col-lg-4">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/cow-640x340.jpg"
+              alt="Cow image"
+            />
+            <p class="h5 mb-0">How Now</p>
+            <p>Posted on October 28, 2020</p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+              accusamus illum est temporibus molestiae totam aliquam odit.
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/sunrise-640x340.jpg"
+              alt="Cow image"
+            />
+            <p class="h5 mb-0">How Now</p>
+            <p>Posted on October 28, 2020</p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+              accusamus illum est temporibus molestiae totam aliquam odit.
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <img
+              class="img-fluid py-3"
+              src="/imgs/grass-640x340.jpg"
+              alt="Cow image"
+            />
+            <p class="h5 mb-0">How Now</p>
+            <p>Posted on October 28, 2020</p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+              accusamus illum est temporibus molestiae totam aliquam odit.
+            </p>
+          </div>
         </div>
       </div>
     </section>
+    <footer>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Website</th>
+            <th scope="col">Recent Posts</th>
+            <th scope="col">Recent Work</th>
+          </tr>
+        </thead>
+      </table>
+    </footer>
 
     <script src="../js/jquery-3.6.4.slim.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
