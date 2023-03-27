@@ -79,3 +79,11 @@ header a:hover {
   min-width: 100%;
   height: auto;
 }
+
+.borderless th {
+  border: none;
+}
+
+.copy-right-text {
+  background-color: black;
+}
